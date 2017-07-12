@@ -1,0 +1,136 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+    color: white !important;
+}
+.bg_img1{
+    background-image: url(../img/banner.jpg);
+    min-height: 670px;
+    position: relative;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    filter: contrast(70%);
+    -webkit-filter: contrast(70%);
+    -ms-filter: contrast(70%);
+    -o-filter: contrast(70%);
+    -moz-filter: contrast(70%);
+}
+.cont-info{
+    position: absolute;
+    left: 0;
+    top: 43%;
+    width: 100%;
+    text-align: center;
+}
+.cont-info span{
+    padding: 18px;
+    font-size: 25px;
+    margin-bottom: 20px;
+    font-weight: 800;
+}
+.cont-info .title{
+    letter-spacing: 10px;
+    border-bottom: 3px solid white;
+    border-top: 3px solid white;
+}
+.cont-info .subtitle1{
+    margin-top: 30px;
+}
+.cont-info .subtitle1, .cont-info .subtitle2{
+    letter-spacing: 5px;
+    font-weight: 700;
+}
+.cont-info .btn{
+    font-weight: 700;
+    font-size: 16px;
+    margin-top: 40px;
+}
+.cont-info .btn-danger{
+    background-color: #ED4933;
+    border: none;
+}
+[class *= "col-"]{
+    padding: 0;
+}
+.learnmore{
+    font-weight: 700;
+    margin-top: 65px;
+}
+@media (max-width: 768px){
+    .bg_img1{
+        background-image: url(../img/pic05.jpg);
+        min-height: 400px;
+    }
+    .cont-info{
+        top: 20%;
+    }
+    .learnmore{
+        margin-top: 55px;
+    }
+    .cont-info .btn-danger{
+        padding-left: 90px;
+        padding-right: 90px;
+    }
+}
+.clear{
+    clear: both;
+}
+section .container-fluid{
+    background-color: #21B2A6;
+    min-height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.cont-datos{
+    width: 100%;
+    text-align: center;
+}
+.font-w700{
+    font-weight: 700;
+}
+section hr{
+    border: 1px solid #1D9C92;
+}
+.cont-datos img{
+    margin-left: 20px;
+    margin-right: 20px;
+    padding-top: 30px;
+}
+.bg-blue{
+    background-color: #2B343D;
+    min-height: 320px;
+    padding: 67px;
+}
+.rescatados img{
+    height: 320px;
+    width: 100%;
+}
+@media (max-width: 768px){
+    .bg-blue {
+        min-height: 200px;
+        padding: 20px;
+    }
+    .rescatados img {
+        height: 100%;
+        width: 100%;
+    }
+}
+.adopt{
+    clear: both;
+}
+.adopt .container{
+    padding-top: 50px;
+}
+.flex{
+    display: flex;
+    justify-content: center;
+}
+.center{
+    text-align: center;
+}
+.bg-purple{
+    background-color: #505393;
+}
